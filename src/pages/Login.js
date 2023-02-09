@@ -39,7 +39,7 @@ export default function Login() {
         }
     }
     return (
-        <div>
+        <div class="content">
             <div>
                 <h1>Login</h1>
                 <form
@@ -79,18 +79,16 @@ export default function Login() {
 
                     </div>
                     <div>
-                        <button
+                        <button 
                             type="submit"
-                        >sign in
-                        </button>
+                            >sign in
+                            </button>
                         <div>
-
+                        <br></br>
                         </div>
-                        <Link
-                            to="/register"
-                        >
-                            Register
-                        </Link>
+                        <button>
+                            <Link to="/register">Register</Link>
+                        </button>
                     </div>
                 </form>
             </div>

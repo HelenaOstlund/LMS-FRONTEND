@@ -8,16 +8,11 @@ export default function Dashboard() {
     };
 
     return (
-        <div>
-            <h1>Dashboard</h1>
-            <Link to="/Library">to Library</Link>
-
-            <button
-                onClick={logout}
-            >
-                Logout
-            </button>
-
+        <div class="content">
+            <h1>Welcome to HERO Dashboard</h1>
+            <div><button><Link to="/Library">to Library</Link></button></div>
+            <br></br>
+            <div><button onClick={logout}>Logout</button></div>
         </div>
     )
 }

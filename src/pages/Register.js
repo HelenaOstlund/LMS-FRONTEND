@@ -31,9 +31,9 @@ export default function Register() {
     }
 
     return (
-        <div>
+        <div class="content">
             <div>
-                <h1>Register</h1>
+                <h1>Register at HERO Library</h1>
                 <form
                     onSubmit={handleSubmit}
                 >

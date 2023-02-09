@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Library() {
 
@@ -24,19 +25,24 @@ export default function Library() {
     }
 
     return (
-        <div>
+        <div class="content">
             <div>
-                <h1>Library</h1>
+                <h1>Search for books in HERO Library</h1>
+                <div>
+                <button><Link to="/Dashboard">To Dashboard</Link></button>
+                </div>
+                <br></br>
                 <input id="input" type="text"></input>
                 <button onClick={getBooks}>Get Books</button>
                 <div id="output"></div>
             </div>
 
-            <button
-                onClick={logout}
-            >
-                Logout
-            </button>
+            <br></br>
+
+            <footer>
+                <button onClick={logout}>Logout</button>
+            </footer>
+           
 
         </div>
     );
