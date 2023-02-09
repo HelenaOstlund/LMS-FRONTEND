@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Library from './pages/Library';
 import Register from './pages/Register';
+import Admin from './pages/Admin';
 import "./style.css"
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<ProtectetRoute><Dashboard /></ProtectetRoute>} />
         <Route path="/library" element={<ProtectetRoute><Library /></ProtectetRoute>} />
+        <Route path="/admin" element={<ProtectetRoute><Admin /></ProtectetRoute>} />
       </Routes>
     </Router>
   );
