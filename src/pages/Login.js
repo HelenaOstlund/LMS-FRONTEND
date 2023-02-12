@@ -23,7 +23,7 @@ export default function Login() {
             })
             .catch((err) => {
                 console.log(err);
-                alert("wrong username ore password");
+                alert("wrong username or password");
             });
     };
 
