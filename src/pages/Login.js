@@ -23,6 +23,7 @@ export default function Login() {
             })
             .catch((err) => {
                 console.log(err);
+                alert("wrong username ore password");
             });
     };
 
@@ -79,12 +80,12 @@ export default function Login() {
 
                     </div>
                     <div>
-                        <button 
+                        <button
                             type="submit"
-                            >sign in
-                            </button>
+                        >sign in
+                        </button>
                         <div>
-                        <br></br>
+                            <br></br>
                         </div>
                         <button>
                             <Link to="/register">Register</Link>
