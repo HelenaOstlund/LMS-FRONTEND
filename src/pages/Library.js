@@ -29,7 +29,7 @@ export default function Library() {
             <div>
                 <h1>Search for books in HERO Library</h1>
                 <div>
-                <button><Link to="/Dashboard">To Dashboard</Link></button>
+                    <button><Link to="/Dashboard">To Dashboard</Link></button>
                 </div>
                 <br></br>
                 <input id="input" type="text"></input>
@@ -42,7 +42,7 @@ export default function Library() {
             <footer>
                 <button onClick={logout}>Logout</button>
             </footer>
-           
+
 
         </div>
     );

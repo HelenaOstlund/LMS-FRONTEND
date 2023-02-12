@@ -34,16 +34,10 @@ export default function Register() {
         <div class="content">
             <div>
                 <h1>Register at HERO Library</h1>
-                <form
-                    onSubmit={handleSubmit}
-                >
+                <form onSubmit={handleSubmit}>
                     <div>
                         <div>
-                            <label
-                                htmlFor="username"
-                            >
-                                Username
-                            </label>
+                            <label htmlFor="username">Username</label>
                         </div>
                         <input
                             id="username"
@@ -55,11 +49,7 @@ export default function Register() {
                     </div>
                     <div>
                         <div>
-                            <label
-                                htmlFor="password"
-                            >
-                                Password
-                            </label>
+                            <label htmlFor="password">Password</label>
                         </div>
                         <input
                             id="password"
@@ -68,14 +58,9 @@ export default function Register() {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                         />
-
                     </div>
                     <div>
-                        <button
-                            type="submit"
-                        >register
-                        </button>
-
+                        <button type="submit">register</button>
                     </div>
                 </form>
             </div>
